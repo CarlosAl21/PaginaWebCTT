@@ -634,6 +634,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
+  
+  
   justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
@@ -9846,8 +9848,12 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/page-header.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fisei_courses.jpg), no-repeat center center;
   background-size: cover;
+  background-position: center;
+  
+
+  
 }
 
 .cat-item img {
