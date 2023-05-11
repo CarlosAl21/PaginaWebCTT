@@ -1574,7 +1574,7 @@ pre code {
 
 .table-borderless th,
 .table-borderless td,
-.table-borderless thead th,
+.table-borderless thead th,primary
 .table-borderless tbody + tbody {
   border: 0;
 }
@@ -2371,8 +2371,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #ff0000;
+  border-color: #000000;
 }
 
 .btn-primary:hover {
@@ -3872,7 +3872,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #FF6600;
+  background-color: #FF0000;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3974,7 +3974,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-webkit-slider-thumb {
-  background-color: #adb5bd;
+  background-color: #43474a;
 }
 
 .custom-range:disabled::-webkit-slider-runnable-track {
@@ -6251,7 +6251,7 @@ a.close.disabled {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ff00;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FF6600 !important;
+  color: #FF0000 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9812,12 +9812,12 @@ h6,
   height: 25px;
   margin: 5px 0;
   background: #44425A;
-  border: 5px solid #FFFFFF;
+  border: 5px solid #000000;
   border-radius: 25px;
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #FF0000;
 }
 
 @media (max-width: 991.98px) {
@@ -9910,7 +9910,7 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #FF6600;
+  background: #FF0000;
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9920,7 +9920,7 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #FF6600;
+  border: 2px solid #FF0000;
   border-radius: 20px;
 }
 
